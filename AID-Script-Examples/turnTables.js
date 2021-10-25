@@ -14,7 +14,7 @@ const modifier = (text) => {
     const newInstructionInterval = 4;
     const playerName = 'John'
     state.detectedTargets = [];
-    const getHistoryText = (turns) => { return history.slice(turns).flatMap(elem => elem["text"]).join() } // Fetches the textc ontained in the specified amount of most recent turns as a string.
+    const getHistoryText = (turns) => { return history.slice(turns).flatMap(elem => elem["text"]).join() } // Fetches the text contained in the specified amount of most recent turns as a string.
     const getNamesFromWorldEntries = () => //Collects a list of the keys associated with the world entry of a character.
     {
         let arrayOfNames = [];
