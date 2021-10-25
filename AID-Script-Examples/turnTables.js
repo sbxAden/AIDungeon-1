@@ -93,7 +93,7 @@ const modifier = (text) => {
         let matchedEntries = []
         worldEntries.forEach(elem => {if (elem["keys"].includes(keyword)) {matchedEntries.push(elem["entry"])}})
         return matchedEntries
-    } // Fetches the textc ontained in the specified amount of most recent turns as a string.
+    } // Fetches the text contained in the specified amount of most recent turns as a string.
 
 
     const getTargetNames = (characters) =>
